@@ -99,8 +99,6 @@ function escolherHora() {
 
     horaEscolhida = campoHora.value;
 
-    paginaAtual = 0;
-
-    mostrarPagina(paginaAtual);
+    mostrarPagina(0);
 
 }
