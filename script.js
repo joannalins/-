@@ -72,3 +72,41 @@ function escolherLugar(lugar) {
     alert("Boa escolha: " + lugar);
 
 }
+let diaEscolhido = "";
+let horaEscolhida = "";
+
+
+function escolherLugar(lugar) {
+
+    lugarEscolhido = lugar;
+
+    paginaAtual = 7;
+
+    mostrarPagina(paginaAtual);
+
+}
+
+
+function escolherDia(dia) {
+
+    diaEscolhido = dia;
+
+    paginaAtual = 8;
+
+    mostrarPagina(paginaAtual);
+
+}
+
+
+function escolherHora(hora) {
+
+    horaEscolhida = hora;
+
+    alert(
+        "Seu date ficou:\n\n" +
+        lugarEscolhido + "\n" +
+        diaEscolhido + "\n" +
+        horaEscolhida
+    );
+
+}
