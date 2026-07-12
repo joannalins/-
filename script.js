@@ -63,3 +63,12 @@ function aceitou() {
     mostrarPagina(paginaAtual);
 
 }
+let lugarEscolhido = "";
+
+function escolherLugar(lugar) {
+
+    lugarEscolhido = lugar;
+
+    alert("Boa escolha: " + lugar);
+
+}
