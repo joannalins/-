@@ -94,15 +94,6 @@ function escolherData() {
 
 function escolherHora() {
 
-    const campoHora = document.getElementById("horaEscolhida");
-
-    horaEscolhida = campoHora.value;
-
-    paginaAtual = 9;
-
-    console.log("indo para página", paginaAtual);
-    console.log("quantidade de páginas:", paginas.length);
-
-    mostrarPagina(paginaAtual);
+    alert("cheguei na função da hora");
 
 }
