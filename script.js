@@ -103,3 +103,14 @@ function escolherHora() {
     mostrarPagina(paginaAtual);
 
 }
+
+function avisarNoca() {
+
+    document.getElementById("resumoDate").innerHTML =
+    `
+    📍 ${lugarEscolhido}<br>
+    📅 ${dataEscolhida}<br>
+    ⏰ ${horaEscolhida}
+    `;
+
+}
