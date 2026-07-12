@@ -1,6 +1,7 @@
 let paginaAtual = 0;
 
 const paginas = document.querySelectorAll(".pagina");
+console.log(paginas.length);
 
 
 function mostrarPagina(numero) {
