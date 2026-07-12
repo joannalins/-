@@ -109,3 +109,5 @@ function avisarNoca() {
     alert("funcionou 💛");
 
 }
+
+console.log("script carregou");
