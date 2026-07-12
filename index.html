@@ -131,58 +131,38 @@
 
     </section>
 
-<!-- PÁGINA 8 -->
+<!-- PÁGINA 8 - CALENDÁRIO -->
 <section class="pagina">
 
     <h1>boa escolha 😌</h1>
 
     <p>
-        agora falta decidir quando.
+        agora escolhe o dia que você quer.
     </p>
 
-    <div class="opcoes">
-
-        <button onclick="escolherDia('📅 Sábado')">
-            📅 Sábado
-        </button>
-
-        <button onclick="escolherDia('📅 Domingo')">
-            📅 Domingo
-        </button>
-
-        <button onclick="escolherDia('📅 Outro dia')">
-            📅 Outro dia
-        </button>
-
-    </div>
+    <input 
+        type="date" 
+        id="dataEscolhida"
+        onchange="escolherData()"
+    >
 
 </section>
 
 
-<!-- PÁGINA 9 -->
+<!-- PÁGINA 9 - HORÁRIO -->
 <section class="pagina">
 
-    <h1>última escolha 😌</h1>
+    <h1>perfeito 💛</h1>
 
     <p>
-        que horas?
+        agora escolhe a hora.
     </p>
 
-    <div class="opcoes">
-
-        <button onclick="escolherHora('🕖 19h')">
-            🕖 19h
-        </button>
-
-        <button onclick="escolherHora('🕗 20h')">
-            🕗 20h
-        </button>
-
-        <button onclick="escolherHora('🕘 21h')">
-            🕘 21h
-        </button>
-
-    </div>
+    <input 
+        type="time" 
+        id="horaEscolhida"
+        onchange="escolherHora()"
+    >
 
 </section>
 
