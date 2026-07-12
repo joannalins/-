@@ -58,11 +58,19 @@ function fugir(event) {
 
 function aceitou() {
 
-    paginaAtual = 5;
+    confetti({
+        particleCount: 150,
+        spread: 90,
+        origin: { y: 0.6 }
+    });
 
-    mostrarPagina(paginaAtual);
+    setTimeout(() => {
+        paginaAtual = 5;
+        mostrarPagina(paginaAtual);
+    }, 800);
 
 }
+
 let lugarEscolhido = "";
 
 function escolherLugar(lugar) {
