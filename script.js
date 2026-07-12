@@ -98,11 +98,8 @@ function escolherHora() {
 
     horaEscolhida = campoHora.value;
 
-    alert(
-        "Seu date ficou:\n\n" +
-        lugarEscolhido + "\n" +
-        dataEscolhida + "\n" +
-        horaEscolhida
-    );
+    paginaAtual = 9;
+
+    mostrarPagina(paginaAtual);
 
 }
