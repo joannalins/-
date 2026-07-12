@@ -111,3 +111,14 @@ function avisarNoca() {
 }
 
 console.log("script carregou");
+
+function avisarNoca() {
+
+    document.getElementById("resumoDate").innerHTML =
+    `
+    📍 ${lugarEscolhido}<br>
+    📅 ${dataEscolhida}<br>
+    ⏰ ${horaEscolhida}
+    `;
+
+}
