@@ -5,8 +5,6 @@ const paginas = document.querySelectorAll(".pagina");
 
 function mostrarPagina(numero) {
 
-    alert("tentando abrir a página " + numero);
-
     paginas.forEach((pagina) => {
         pagina.classList.remove("ativa");
     });
