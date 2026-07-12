@@ -16,11 +16,11 @@ function mostrarPagina(numero) {
 
 function proximaPagina() {
 
+    console.log("cliquei");
+
     paginaAtual++;
 
-    if (paginaAtual < paginas.length) {
-        mostrarPagina(paginaAtual);
-    }
+    mostrarPagina(paginaAtual);
 
 }
 
