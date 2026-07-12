@@ -69,7 +69,9 @@ function escolherLugar(lugar) {
 
     lugarEscolhido = lugar;
 
-    alert("Boa escolha: " + lugar);
+    paginaAtual = 7;
+
+    mostrarPagina(paginaAtual);
 
 }
 let diaEscolhido = "";
