@@ -1,1 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
 
+body {
+    min-height: 100vh;
+    background: #fffdf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4a3b32;
+}
+
+.site {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.pagina {
+    display: none;
+    animation: aparecer 0.7s ease;
+}
+
+.pagina.ativa {
+    display: block;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #d9a441;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+button {
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    background: #f6c85f;
+    color: #4a3b32;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 8px;
+}
+
+button:hover {
+    transform: scale(1.08);
+    background: #f3b84b;
+}
+
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.opcoes button {
+    width: 80%;
+    background: #ffdce5;
+}
+
+
+@keyframes aparecer {
+
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
