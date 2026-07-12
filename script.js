@@ -112,3 +112,34 @@ function escolherHora(hora) {
     );
 
 }
+let dataEscolhida = "";
+let horaEscolhida = "";
+
+
+function escolherData() {
+
+    const campoData = document.getElementById("dataEscolhida");
+
+    dataEscolhida = campoData.value;
+
+    paginaAtual = 8;
+
+    mostrarPagina(paginaAtual);
+
+}
+
+
+function escolherHora() {
+
+    const campoHora = document.getElementById("horaEscolhida");
+
+    horaEscolhida = campoHora.value;
+
+    alert(
+        "Seu date ficou:\n\n" +
+        lugarEscolhido + "\n" +
+        dataEscolhida + "\n" +
+        horaEscolhida
+    );
+
+}
