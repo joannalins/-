@@ -106,11 +106,6 @@ function escolherHora() {
 
 function avisarNoca() {
 
-    document.getElementById("resumoDate").innerHTML =
-    `
-    📍 ${lugarEscolhido}<br>
-    📅 ${dataEscolhida}<br>
-    ⏰ ${horaEscolhida}
-    `;
+    alert("funcionou 💛");
 
 }
