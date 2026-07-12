@@ -104,13 +104,6 @@ function escolherHora() {
 
 }
 
-function avisarNoca() {
-
-    alert("funcionou 💛");
-
-}
-
-console.log("script carregou");
 
 function avisarNoca() {
 
