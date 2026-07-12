@@ -100,6 +100,9 @@ function escolherHora() {
 
     paginaAtual = 9;
 
+    console.log("indo para página", paginaAtual);
+    console.log("quantidade de páginas:", paginas.length);
+
     mostrarPagina(paginaAtual);
 
 }
