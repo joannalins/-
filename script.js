@@ -150,12 +150,24 @@ function escolherHora() {
 
     horaEscolhida = campoHora.value;
 
+    document.getElementById("resumoDate").innerHTML =
+    `
+    📍 ${lugarEscolhido}
+
+    <br>
+
+    📅 ${formatarData(dataEscolhida)}
+
+    <br>
+
+    ⏰ ${horaEscolhida}
+    `;
+
     paginaAtual = 9;
 
     mostrarPagina(paginaAtual);
 
 }
-
 
 function avisarNoca() {
 
