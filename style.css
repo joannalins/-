@@ -1,8 +1,8 @@
-* {
+* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Arial", sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 body {
@@ -29,8 +29,9 @@ body {
     display: block;
 }
 
-h1 {
-    font-size: 2.2rem;
+h1 h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 3.2rem;
     color: #d9a441;
     margin-bottom: 25px;
 }
