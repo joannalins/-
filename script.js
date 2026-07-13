@@ -58,16 +58,33 @@ function fugir(event) {
 
 function aceitou() {
 
-    confetti({
-        particleCount: 150,
-        spread: 90,
-        origin: { y: 0.6 }
-    });
+    const duracao = 3000;
+    const fim = Date.now() + duracao;
+
+    const intervalo = setInterval(() => {
+
+        if (Date.now() > fim) {
+            clearInterval(intervalo);
+            return;
+        }
+
+        confetti({
+            particleCount: 80,
+            spread: 100,
+            startVelocity: 30,
+            origin: {
+                x: Math.random(),
+                y: 0
+            }
+        });
+
+    }, 250);
+
 
     setTimeout(() => {
         paginaAtual = 5;
         mostrarPagina(paginaAtual);
-    }, 800);
+    }, 3000);
 
 }
 
