@@ -98,3 +98,26 @@ button:hover {
     }
 
 }
+
+.fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 35px;
+    opacity: 0.18;
+    pointer-events: none;
+    animation: flutuar 6s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(30px);
+    }
+
+}
