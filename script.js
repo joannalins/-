@@ -134,8 +134,18 @@ function avisarNoca() {
 
     document.getElementById("resumoDate").innerHTML =
     `
-    📍 ${lugarEscolhido}<br>
-    📅 ${dataEscolhida}<br>
+    🌻 seu date:
+
+    <br><br>
+
+    📍 ${lugarEscolhido}
+
+    <br>
+
+    📅 ${dataEscolhida}
+
+    <br>
+
     ⏰ ${horaEscolhida}
     `;
 
