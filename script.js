@@ -159,6 +159,20 @@ function escolherHora() {
 
 function avisarNoca() {
 
+    document.getElementById("resumoDate").innerHTML =
+    `
+    📍 ${lugarEscolhido}
+
+    <br>
+
+    📅 ${formatarData(dataEscolhida)}
+
+    <br>
+
+    ⏰ ${horaEscolhida}
+    `;
+
+
     const mensagem = 
     `Noca, feshow então 💛
 
@@ -168,7 +182,8 @@ function avisarNoca() {
 
 agora vai ter que ir, bbzona 💋`;
 
-    const numero = "+5581982659180";
+
+    const numero = "SEU_NUMERO_AQUI";
 
     const link = 
     `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
