@@ -102,6 +102,33 @@ function escolherLugar(lugar) {
 
 let dataEscolhida = "";
 let horaEscolhida = "";
+function formatarData(data) {
+
+    const partes = data.split("-");
+
+    const dia = partes[2];
+    const mes = partes[1];
+    const ano = partes[0];
+
+    const meses = [
+        "",
+        "janeiro",
+        "fevereiro",
+        "março",
+        "abril",
+        "maio",
+        "junho",
+        "julho",
+        "agosto",
+        "setembro",
+        "outubro",
+        "novembro",
+        "dezembro"
+    ];
+
+    return `${dia} de ${meses[Number(mes)]} de ${ano}`;
+
+}
 
 
 function escolherData() {
@@ -142,8 +169,8 @@ function avisarNoca() {
 
     <br>
 
-    📅 ${dataEscolhida}
-
+   📅 ${formatarData(dataEscolhida)}
+   
     <br>
 
     ⏰ ${horaEscolhida}
